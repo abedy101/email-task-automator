@@ -5,8 +5,10 @@
 
 An AI-powered tool that extracts actionable tasks from emails and automatically sends them to Trello and Slack.
 
-![Demo](https://via.placeholder.com/800x400?text=Email-to-Task+Automator+Demo) 
-*(Consider adding a real screenshot here)*
+## Preview
+
+![App Screenshot](https://raw.githubusercontent.com/abedy101/email-task-automator/main/assets/screenshot.png)
+
 
 ## ✨ Features
 
