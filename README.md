@@ -1,7 +1,5 @@
-
-
 ```markdown
-# 📧 Email-to-Task Automator 🤖
+# Email-to-Task Automator
 
 An AI-powered tool that extracts actionable tasks from emails and automatically sends them to Trello and Slack.
 
@@ -9,7 +7,7 @@ An AI-powered tool that extracts actionable tasks from emails and automatically 
 
 ![App Screenshot](https://raw.githubusercontent.com/abedy101/email-task-automator/main/assets/screenshot.png)
 
-## ✨ Features
+## Features
 
 - **Smart Email Parsing**:
   - Extracts task descriptions, deadlines, and priority levels (High/Medium/Low)
@@ -22,10 +20,12 @@ An AI-powered tool that extracts actionable tasks from emails and automatically 
 - **Time-Saving**:
   - Shows estimated time saved per processed email
 
-## 📝 Example Workflow
+## Example Workflow
 
 ### Input Email
+
 ```
+
 Hi team,
 
 Great work on wrapping up the June deliverables.
@@ -41,9 +41,11 @@ Looking ahead, here are a few important follow-ups:
 
 Thanks,
 Dave
-```
+
+````
 
 ### Extracted Tasks
+
 ```json
 [
   {
@@ -77,26 +79,28 @@ Dave
     "priority": "high"
   }
 ]
-```
+````
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-| Component       | Technology |
-|-----------------|------------|
-| Language Model  | OpenAI GPT-4 |
-| Backend         | FastAPI    |
-| Frontend        | Streamlit  |
-| Integrations    | Trello API, Slack Webhooks |
+| Component      | Technology                 |
+| -------------- | -------------------------- |
+| Language Model | OpenAI GPT-4               |
+| Backend        | FastAPI                    |
+| Frontend       | Streamlit                  |
+| Integrations   | Trello API, Slack Webhooks |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
-- Python 3.8+
-- OpenAI API key
-- Trello credentials (optional)
-- Slack webhook URL (optional)
+
+* Python 3.8+
+* OpenAI API key
+* Trello credentials (optional)
+* Slack webhook URL (optional)
 
 ### Installation
+
 ```bash
 git clone https://github.com/abedy101/email-task-automator.git
 cd email-task-automator
@@ -112,7 +116,9 @@ pip install -r requirements.txt
 ```
 
 ### Configuration
+
 Create a `.env` file with your credentials:
+
 ```
 OPENAI_API_KEY=your-key-here
 TRELLO_KEY=your-key-here
@@ -122,6 +128,7 @@ SLACK_WEBHOOK_URL=your-webhook-url-here
 ```
 
 ### Running the Application
+
 ```bash
 # Start the API server
 uvicorn app.main:app --reload
@@ -132,22 +139,25 @@ streamlit run app.py
 
 Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
-## 🔧 Customization Options
+## Customization Options
 
-- **LLM Integration**: Swap OpenAI for Claude, Mistral, or other LLMs
-- **Email Providers**: Connect with Gmail/Outlook via Zapier or Google Apps Script
-- **Additional Integrations**: Add support for Notion, Monday.com, or MS Teams
+* **LLM Integration**: Swap OpenAI for Claude, Mistral, or other LLMs
+* **Email Providers**: Connect with Gmail/Outlook via Zapier or Google Apps Script
+* **Additional Integrations**: Add support for Notion, Monday.com, or MS Teams
 
-## 📄 License
+## License
 
 This project is open-source under the [MIT License](LICENSE).
 
-## 💼 Professional Services
+## Professional Services
 
 Need a customized version for your team? I can deliver:
-- Full integration with your email system
-- Custom CRM connections
-- Team-specific configurations
+
+* Full integration with your email system
+* Custom CRM connections
+* Team-specific configurations
 
 **Delivery time**: Typically under 48 hours
+
+```
 ```
