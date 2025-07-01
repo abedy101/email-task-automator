@@ -1,4 +1,3 @@
-```markdown
 # Email-to-Task Automator
 
 An AI-powered tool that extracts actionable tasks from emails and automatically sends them to Trello and Slack.
@@ -25,7 +24,6 @@ An AI-powered tool that extracts actionable tasks from emails and automatically 
 ### Input Email
 
 ```
-
 Hi team,
 
 Great work on wrapping up the June deliverables.
@@ -41,8 +39,7 @@ Looking ahead, here are a few important follow-ups:
 
 Thanks,
 Dave
-
-````
+```
 
 ### Extracted Tasks
 
@@ -79,7 +76,7 @@ Dave
     "priority": "high"
   }
 ]
-````
+```
 
 ## Tech Stack
 
@@ -158,6 +155,3 @@ Need a customized version for your team? I can deliver:
 * Team-specific configurations
 
 **Delivery time**: Typically under 48 hours
-
-```
-```
