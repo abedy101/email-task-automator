@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+env/
+venv/
+*.env
+
+# Environment variables
+.env
+
+# VSCode and system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Log files
+*.log
