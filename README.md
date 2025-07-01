@@ -9,7 +9,6 @@ An AI-powered tool that extracts actionable tasks from emails and automatically 
 
 ![App Screenshot](https://raw.githubusercontent.com/abedy101/email-task-automator/main/assets/screenshot.png)
 
-
 ## ✨ Features
 
 - **Smart Email Parsing**:
